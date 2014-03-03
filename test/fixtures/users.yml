@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  email: MyString
+  type: 1
+  credit: 
+
+two:
+  email: MyString
+  type: 1
+  credit: 

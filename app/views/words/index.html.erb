@@ -1,0 +1,31 @@
+<h1>Listing words</h1>
+
+<table>
+  <tr>
+    <th>Word</th>
+    <th>Total accurence</th>
+    <th>Correct accurence</th>
+    <th>Score</th>
+    <th>Answer</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @words.each do |word| %>
+  <tr>
+    <td><%= word.content %></td>
+    <td><%= word.total_times %></td>
+    <td><%= word.correct_times %></td>
+    <td><%= word.score %></td>
+    <td><%= word.answer.content %></td>
+    <td><%= link_to 'Show', word %></td>
+    <td><%= link_to 'Edit', edit_word_path(word) %></td>
+    <td><%= link_to 'Destroy', word, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Word', new_word_path %>

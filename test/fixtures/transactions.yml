@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  subtotal: 1
+  sponsor_id: 1
+  date: 2014-02-12 18:45:26
+
+two:
+  subtotal: 1
+  sponsor_id: 1
+  date: 2014-02-12 18:45:26

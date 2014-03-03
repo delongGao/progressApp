@@ -1,0 +1,28 @@
+words:
+  header: "id,content,total_times,correct_times,score"
+  table: "words"
+  timestamps: "both"
+answers:
+   header: "id,content,word_id"
+   table: "answers"
+   timestamps: "both"
+# tests:
+#   header: "id,score,user_id"
+#   table: "tests"
+#   timestamps: "both"
+# reports:
+#   header: "id,user_id"
+#   table: "reports"
+#   timestamps: "both"
+# users:
+#   header: "id,email,type,credit"
+#   table: "users"
+#   timestamps: "both"
+# transactions:
+#   header: "id,subtotal,sponsor_id,date"
+#   table: "transactions"
+#   timestamps: "both"
+# gifts:
+#   header: "id,name,url,score_cost,transaction_id,sender_id,receiver_id"
+#   table: "gifts"
+#   timestamps: "both"

@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  url: MyString
+  score_cost: 1
+  transaction_id: 1
+  sender_id: 1
+  receiver_id: 1
+
+two:
+  name: MyString
+  url: MyString
+  score_cost: 1
+  transaction_id: 1
+  sender_id: 1
+  receiver_id: 1
